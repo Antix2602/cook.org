@@ -9,7 +9,7 @@ from reportlab.pdfgen import canvas
 import os, random
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY','dev-secret-key')
+app.config['484h484bdc4wbdsk84345'] = os.environ.get('SECRET_KEY','dev-secret-key')
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///cook.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
@@ -389,6 +389,7 @@ with app.app_context():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
 
 
 
